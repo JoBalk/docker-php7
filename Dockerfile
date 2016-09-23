@@ -12,5 +12,4 @@ RUN 	a2enmod rewrite
 RUN   rm -f /var/www/html/index.html
 
 EXPOSE 	80
-VOLUME 	/var/www/html
 CMD 	["/sbin/my_init"]
