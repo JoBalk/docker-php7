@@ -1,4 +1,4 @@
-FROM JoBalk/base
+FROM jobalk/base
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get clean && apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
